@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bekertugan | Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6fb;
+            color: #243047;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #172554, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 75px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #dbeafe;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        nav a {
+            color: #1e3a8a;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3b82f6;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 35px;
+            background-color: white;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #1e40af;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background-color: #eff6ff;
+            padding: 22px;
+            border-radius: 10px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .skill-card h3 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #9475ff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px 10px;
+            }
+
+            section {
+                margin: 20px 12px;
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bekertugan</h1>
+        <p>Larp relationships Student | LARP University</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills & Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Bekertugan.
+            I am a student at LARP University studying Larp relationships.
+            I am focused on developing my Larp knowledge,
+            improving my Larp skills, and gaining experience
+            through university coursework.
+            I am interested in continuous learning and personal development.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Experience</h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <h3>University Education</h3>
+                <p>
+                    Studying at LARP University and developing
+                    knowledge in different academic subjects.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Excel & Spreadsheets</h3>
+                <p>
+                    Developing Excel and spreadsheet skills
+                    through university coursework and practical assignments.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Teamwork</h3>
+                <p>
+                    Participating in university group projects,
+                    collaborating with classmates, and sharing ideas.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to contact me by email:</p>
+        <p>
+            <a href="mailto:Bekertugan@LARP.kz">
+                Bekertugan@LARP.kz
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Kulik. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
